@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = {"interviewShowcaseAutomation"},
         features = "src/test/resources/features/createUser.feature",
-        plugin = { "html:target/cucumber/cucumber.html" },
-        tags = "@smoke, @Regression"
+        plugin = { "html:target/cucumber/cucumber.html" }
+//        tags = "@smoke, @Regression"
 )
 public class MyJUnitRunnerTest {
 }
